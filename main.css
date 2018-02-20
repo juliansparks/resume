@@ -27,4 +27,6 @@ h1 {
   left: 775.768px;
   top: 126.76px;
   z-index: 850;
+  min-height: 100%;
+  min-width: 100%;
 }
