@@ -9,6 +9,8 @@
   width: 2148px;
   height: 55%;
   z-index: 800;
+  min-width:2148px;
+  min-height: 55%;
 }
 
 h1 {
