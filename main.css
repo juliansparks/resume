@@ -10,6 +10,7 @@
   height: 55%;
   z-index: 800;
   min-height: 55%;
+  min-width: 100%
 }
 
 h1 {
