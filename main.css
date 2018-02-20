@@ -9,7 +9,6 @@
   width: 2148px;
   height: 55%;
   z-index: 800;
-  min-width:2148px;
   min-height: 55%;
 }
 
@@ -18,7 +17,7 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: rgb(80, 132, 201);
   line-height: 0.487;
-  font-weight: 200;
+  font-weight: 300;
   text-align: left;
   -moz-transform: scale(1, 1.17);
   -webkit-transform: scale(1, 1.17);
