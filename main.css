@@ -1,3 +1,5 @@
+
+
 #Rectangle_1 {
   background-image: url("Rectangle1.png");
   position: absolute;
@@ -5,5 +7,5 @@
   top: -22px;
   width: 2148px;
   height: 602px;
-  z-index: 900;
+  z-index: 800;
 }
