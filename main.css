@@ -3,9 +3,9 @@
 #Rectangle_1 {
   background-image: url("Rectangle1.png");
   position: absolute;
-  left: -163px;
-  top: -22px;
+  left: 0px;
+  top: 0px;
   width: 2148px;
-  height: 602px;
+  height: 322.3px;
   z-index: 800;
 }
