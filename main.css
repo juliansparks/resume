@@ -9,3 +9,18 @@
   height: 55%;
   z-index: 800;
 }
+
+h1 {
+  font-size: 74px;
+  font-family: "Raleway";
+  color: rgb(80, 132, 201);
+  line-height: 0.487;
+  text-align: left;
+  -moz-transform: scale(1, 1.17);
+  -webkit-transform: scale(1, 1.17);
+  -ms-transform: scale(1, 1.17);
+  position: absolute;
+  left: 969.71px;
+  top: 230.481px;
+  z-index: 3;
+}
