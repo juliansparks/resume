@@ -29,3 +29,13 @@ h1 {
   z-index: 850;
 
 }
+
+#bars {
+  background-image: url("bars.png");
+  position: absolute;
+  left: 98px;
+  top: 676px;
+  width: 367px;
+  height: 344px;
+  z-index: 750;
+}
