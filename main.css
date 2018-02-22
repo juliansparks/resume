@@ -29,3 +29,20 @@ h1 {
   z-index: 850;
 
 }
+
+h2 {
+
+  font-size: 36px;
+  font-family: "Poiret One";
+  color: rgb(80, 132, 201);
+  line-height: 1;
+  text-align: left;
+  -moz-transform: scale(1, 1.17);
+  -webkit-transform: scale(1, 1.17);
+  -ms-transform: scale(1, 1.17);
+  position: absolute;
+  left: 358.139px;
+  top: 605px;
+  z-index: 900;
+
+}
