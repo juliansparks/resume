@@ -6,7 +6,7 @@
   left: 0px;
   top: 0px;
   right: 0px;
-  width: 1536px;
+  width: 1519px;
   height: 55%;
   z-index: 800;
   min-height: 55%;
@@ -28,14 +28,4 @@ h1 {
   top: 126.76px;
   z-index: 850;
 
-}
-
-#bargraph {
-  background-image: url("bars.png");
-  position: absolute;
-  left: 98px;
-  top: 676px;
-  width: 293.6px;
-  height: 275.2px;
-  z-index: 750;
 }
