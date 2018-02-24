@@ -142,7 +142,7 @@ body {
   left: 428px;
   width: 674px;
   position:absolute;
-  z-index: 700px;
+
 }
 
 
@@ -178,5 +178,6 @@ body {
     font-family: "Poiret One";
     width: 782px;
     position:absolute;
-    z-index: 700px;
+    top:450px;
+    left:428px;
 }
