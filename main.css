@@ -63,7 +63,8 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 28px;
+  line-height: 3;
   font-family: "Poiret One";
 
 }
@@ -176,8 +177,9 @@ body {
     background-color: #d4e5fc;
     color:#3498db;
     font-family: "Poiret One";
-    width: 782px;
+    width: 650px;
     position:absolute;
     top:450px;
     left:428px;
+    z-index: 650;
 }
