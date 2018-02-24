@@ -140,6 +140,7 @@ body {
   background-color: #d4e5fc;
   top: 400px;
   left: 320px;
+  width: 782px;
 }
 
 
@@ -154,6 +155,7 @@ body {
     color:#3498db;
     font-family: "Poiret One";
     font-size: 36px;
+
 }
 
 .tab button:hover {
@@ -172,4 +174,5 @@ body {
     background-color: #d4e5fc;
     color:#3498db;
     font-family: "Poiret One";
+    width: 782px;
 }
