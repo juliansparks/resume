@@ -138,7 +138,10 @@ body {
   overflow: hidden;
   border: 1px solid #3498db;
   background-color: #d4e5fc;
+  top: 400px;
+  left: 320px;
 }
+
 
 .tab button {
     background-color: #d4e5fc;
@@ -150,6 +153,7 @@ body {
     transition: 0.3s;
     color:#3498db;
     font-family: "Poiret One";
+    font-size: 36px;
 }
 
 .tab button:hover {
