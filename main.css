@@ -93,3 +93,13 @@ h3 {
   top: 494px;
   z-index: 24;
 }
+
+.line {
+  background-color: rgb(34, 34, 37);
+  position: absolute;
+  left: 1175px;
+  top: 700px;
+  width: 450px;
+  height: 1px;
+  z-index: 29;
+}
