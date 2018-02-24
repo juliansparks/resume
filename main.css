@@ -140,7 +140,8 @@ body {
   background-color: #d4e5fc;
   top: 400px;
   left: 320px;
-  width: 782px;
+  width: 806px;
+  position:absolute;
 }
 
 
@@ -175,4 +176,5 @@ body {
     color:#3498db;
     font-family: "Poiret One";
     width: 782px;
+    position:absolute;
 }
