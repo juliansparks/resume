@@ -72,7 +72,8 @@ h3 {
   -webkit-transform: scale(1, 1.17);
   -ms-transform: scale(1, 1.17);
   position: absolute;
-  left: 1513.334px;
+  text-decoration:none;
+  left: 1200px;
   top: 572px;
   z-index: 24;
 }
