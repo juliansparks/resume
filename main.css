@@ -10,7 +10,8 @@
   height: 55%;
   z-index: 800;
   min-height: 55%;
-  min-width: 100%
+  background-size: contain;
+
 }
 
 h1 {
@@ -182,7 +183,7 @@ body {
     width: 650px;
     height: 304.75px;
     position:absolute;
-    top:467px;
+    top:464px;
     left:428px;
     z-index: 650;
 }
