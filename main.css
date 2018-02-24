@@ -104,17 +104,20 @@ h3 {
   z-index: 29;
 }
 
-.quote{
-  font-size: 36px;
+
+.quote {
+  font-size: 28px;
   font-family: "Poiret One";
   color: rgb(80, 132, 201);
-  line-height: 1;
-  text-align: left;
+  line-height: 1.286;
+  text-align: center;
   -moz-transform: scale(1, 1.17);
   -webkit-transform: scale(1, 1.17);
   -ms-transform: scale(1, 1.17);
   position: absolute;
-  left: 1182px;
-  top: 695px;
-  z-index: 30;
+  left: 1455.679px;
+  top: 892.539px;
+  width: 403.992px;
+  height: 99.207px;
+  z-index: 31;
 }
