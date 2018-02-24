@@ -81,6 +81,69 @@ z-index: 800;">
 <div class= "line"></div>
 <div class= "quote"><i>"Art enables us to find ourselves and lose ourselves at the same time."</i></div>
 
+<div class="tab">
+  <button class="tablinks" onclick="openInfo(event, 'ABOUT ME')" id="defaultOpen">ABOUT ME</button>
+  <button class="tablinks" onclick="openInfo(event, 'WORK HIST')">WORK HIST</button>
+  <button class="tablinks" onclick="openInfo(event, 'HOBBIES')">HOBBIES</button>
+
+</div>
+
+<div id="ABOUT ME" class= "tabcontent">
+  <h3>ABOUT ME</h3>
+  <p>Lorem ipsum dolor sit amet, nam wisi eius ei. Vidisse vocibus usu in, ius virtute inermis nusquam ut, sed liber affert consulatu no. Solum abhorreant per ut, ex nam possit argumentum. Te amet veri imperdiet has.
+
+Delicata mandamus has in. Ea eam timeam impetus. Dictas detraxit corrumpit quo cu, id recteque argumentum vis, eu nam alii iudico atomorum. Molestie inciderint id nec, eos at utinam adipisci constituto. Sea id malis legere quaerendum, ex quo soleat periculis. Ut meis apeirian persecuti nam, choro partem et ius.
+
+Ex eam solet repudiandae. Sed atqui molestie ei. Cu ius vivendum probatus, et nullam melius quo, vim duis elitr constituam in. Ea latine aliquip tritani mel, at iisque alienum mea, pro ut suas menandri molestiae.
+
+Utroque mediocrem consulatu cum te, mel quas dicam consulatu no. Molestiae elaboraret ne sit, accusamus conceptam scriptorem in qui, usu debet labore eu. Cu eos modus vocibus, te sit dicam postea scripta, mea et aperiam democritum. At his vidit dicit. Pri quaeque intellegam ex, vix quod quas cu. Viris senserit principes sit te, maluisset consequuntur ius ut, nam an dico atqui luptatum.
+
+Per ea duis ubique quidam, assum iusto usu id, duo ignota convenire ut. Eum an quaeque noluisse expetendis. Prima solum per ut, qui albucius mediocrem ad. Mei adhuc iracundia no. Case vocent suscipit has eu, quaeque deseruisse pro ei, ex vis habemus ullamcorper. At pri errem tempor aliquando.</p>
+</div>
+
+<div id="WORK HIST" class= "tabcontent">
+  <h3>WORK HIST.</h3>
+  <p>Lorem ipsum dolor sit amet, nam wisi eius ei. Vidisse vocibus usu in, ius virtute inermis nusquam ut, sed liber affert consulatu no. Solum abhorreant per ut, ex nam possit argumentum. Te amet veri imperdiet has.
+
+Delicata mandamus has in. Ea eam timeam impetus. Dictas detraxit corrumpit quo cu, id recteque argumentum vis, eu nam alii iudico atomorum. Molestie inciderint id nec, eos at utinam adipisci constituto. Sea id malis legere quaerendum, ex quo soleat periculis. Ut meis apeirian persecuti nam, choro partem et ius.
+
+Ex eam solet repudiandae. Sed atqui molestie ei. Cu ius vivendum probatus, et nullam melius quo, vim duis elitr constituam in. Ea latine aliquip tritani mel, at iisque alienum mea, pro ut suas menandri molestiae.
+
+Utroque mediocrem consulatu cum te, mel quas dicam consulatu no. Molestiae elaboraret ne sit, accusamus conceptam scriptorem in qui, usu debet labore eu. Cu eos modus vocibus, te sit dicam postea scripta, mea et aperiam democritum. At his vidit dicit. Pri quaeque intellegam ex, vix quod quas cu. Viris senserit principes sit te, maluisset consequuntur ius ut, nam an dico atqui luptatum.
+
+Per ea duis ubique quidam, assum iusto usu id, duo ignota convenire ut. Eum an quaeque noluisse expetendis. Prima solum per ut, qui albucius mediocrem ad. Mei adhuc iracundia no. Case vocent suscipit has eu, quaeque deseruisse pro ei, ex vis habemus ullamcorper. At pri errem tempor aliquando.</p>
+</div>
+
+<div id="HOBBIES" class= "tabcontent">
+  <h3>HOBBIES</h3>
+  <p>Lorem ipsum dolor sit amet, nam wisi eius ei. Vidisse vocibus usu in, ius virtute inermis nusquam ut, sed liber affert consulatu no. Solum abhorreant per ut, ex nam possit argumentum. Te amet veri imperdiet has.
+
+Delicata mandamus has in. Ea eam timeam impetus. Dictas detraxit corrumpit quo cu, id recteque argumentum vis, eu nam alii iudico atomorum. Molestie inciderint id nec, eos at utinam adipisci constituto. Sea id malis legere quaerendum, ex quo soleat periculis. Ut meis apeirian persecuti nam, choro partem et ius.
+
+Ex eam solet repudiandae. Sed atqui molestie ei. Cu ius vivendum probatus, et nullam melius quo, vim duis elitr constituam in. Ea latine aliquip tritani mel, at iisque alienum mea, pro ut suas menandri molestiae.
+
+Utroque mediocrem consulatu cum te, mel quas dicam consulatu no. Molestiae elaboraret ne sit, accusamus conceptam scriptorem in qui, usu debet labore eu. Cu eos modus vocibus, te sit dicam postea scripta, mea et aperiam democritum. At his vidit dicit. Pri quaeque intellegam ex, vix quod quas cu. Viris senserit principes sit te, maluisset consequuntur ius ut, nam an dico atqui luptatum.
+
+Per ea duis ubique quidam, assum iusto usu id, duo ignota convenire ut. Eum an quaeque noluisse expetendis. Prima solum per ut, qui albucius mediocrem ad. Mei adhuc iracundia no. Case vocent suscipit has eu, quaeque deseruisse pro ei, ex vis habemus ullamcorper. At pri errem tempor aliquando.</p>
+</div>
+
+<script>
+  document.getElementById("defaultOpen").click();
+  function openInfo(evt, infoName){
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+
+    for(i=0; i < tabcontent.length; i++){
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+    }
+
+    document.getElementById(infoName).style.display = "block";
+    evt.currentTarget.className += " active";
+
+  }
+</script>
+
 
 </body>
 
