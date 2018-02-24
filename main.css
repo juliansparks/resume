@@ -58,12 +58,12 @@ h3 {
   -ms-transform: scale(1, 1.17);
   position: absolute;
   left: 1130.795px;
-  top: 394px;
+  top: 393px;
   z-index: 800;
 }
 
 h4 {
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Poiret One";
 
 }
@@ -138,10 +138,11 @@ body {
   overflow: hidden;
   border: 1px solid #3498db;
   background-color: #d4e5fc;
-  top: 400px;
-  left: 320px;
-  width: 806px;
+  top: 422px;
+  left: 428px;
+  width: 674px;
   position:absolute;
+  z-index: 700px;
 }
 
 
@@ -177,4 +178,5 @@ body {
     font-family: "Poiret One";
     width: 782px;
     position:absolute;
+    z-index: 700px;
 }
