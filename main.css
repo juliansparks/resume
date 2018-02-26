@@ -1,10 +1,10 @@
 #profilepic {
-  background: url("profilepic.png") no-repeat;
+  background-image: : url("profilepic.png");
   height:55%;
   margin: 0 auto;
   z-index: 850;
   float:left;
-  
+
 }
 
 #Rectangle_1 {
