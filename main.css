@@ -1,9 +1,9 @@
 #profilepic {
-  background-image: : url("profilepic.png");
   height:55%;
-  margin: 0 auto;
   z-index: 850;
-  float:left;
+  position:absolute;
+  top:0px;
+  left:0px;
 
 }
 
