@@ -1,4 +1,4 @@
-#profilepic img {
+.profilepic img {
   z-index: 850;
   position:absolute;
   top:0px;
@@ -6,7 +6,11 @@
   height:55%
 }
 
-
+body{
+  padding-bottom: 775px;
+  font-size: 14px;
+  font-family: "Poiret One";
+}
 
 #Rectangle_1 {
   background-image: url("Rectangle1.png");
@@ -140,10 +144,6 @@ h4 {
   z-index: 31;
 
 
-}
-
-body {
-  padding-bottom: 775px;
 }
 
 .tab {
