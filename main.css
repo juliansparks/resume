@@ -3,8 +3,12 @@
   position:absolute;
   top:0px;
   left:0px;
-  height: 55%;
-  max-width:100%
+  width: 325.667px;
+  height: 267.067px;
+}
+
+img {
+  width: 100%;
 }
 
 
