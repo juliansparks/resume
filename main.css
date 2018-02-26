@@ -39,16 +39,12 @@ body{
 
 }
 
-h1 {
+.name {
   font-size: 59.2px;
   font-family: 'Raleway', sans-serif;
   color:  #3498db;
-  line-height: 0.487;
   font-weight: 300;
-  text-align: left;
-  -moz-transform: scale(1, 1.17);
-  -webkit-transform: scale(1, 1.17);
-  -ms-transform: scale(1, 1.17);
+  text-align: center;
   position: absolute;
   left: 775.768px;
   top: 126.76px;
