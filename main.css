@@ -1,7 +1,7 @@
 .topbar {
     position: relative;
     width: 100%;
-    margin: 0px auto;
+    height:22.7em;
 
 }
 
@@ -10,7 +10,8 @@
   position:absolute;
   top:0px;
   left:0px;
-  height: 10em;
+  height: 22.7em;
+  width: 22.78em;
 }
 
 body{
