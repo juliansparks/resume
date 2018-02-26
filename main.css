@@ -1,5 +1,5 @@
 #profilepic {
-  background-image: url("profilepic.png") no-repeat;
+  background: url("profilepic.png") no-repeat;
   height:55%;
   margin: 0 auto;
   z-index: 850;
