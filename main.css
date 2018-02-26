@@ -45,6 +45,7 @@ body{
   color:  #3498db;
   font-weight: 300;
   text-align: center;
+  word-wrap: initial;
   -webkit-text-size-adjust: none;
   position: absolute;
   margin-left: 12em;
