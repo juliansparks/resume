@@ -20,14 +20,12 @@ body{
   font-family: "Poiret One";
 }
 
-#Rectangle_1 {
-  background-image: url("Rectangle1.png");
+.Rectangle {
   position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
-  width: 1519px;
-  height: 55%;
+  height: 22.7em;
   z-index: 800;
   min-height: 55%;
   background-size: contain;
