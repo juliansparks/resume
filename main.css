@@ -81,8 +81,8 @@ h3 {
   -webkit-transform: scale(1, 1.17);
   -ms-transform: scale(1, 1.17);
   position: absolute;
-  left: 1130.795px;
-  top: 393px;
+  margin-left: 31.4em;
+  top: 9em;
   z-index: 800;
 }
 
@@ -104,8 +104,8 @@ h4 {
   -ms-transform: scale(1, 1.17);
   position: absolute;
 
-  left: 1182px;
-  top: 566px;
+  margin-left: 49.3em;
+  top: 21em;
   z-index: 24;
 }
 
@@ -120,8 +120,8 @@ h4 {
   -ms-transform: scale(1, 1.17);
   position: absolute;
 
-  left: 1182px;
-  top: 494px;
+  margin-left: 49.3em;
+  top: 18em;
   z-index: 24;
 }
 
@@ -146,8 +146,8 @@ h4 {
   -webkit-transform: scale(1, 1.17);
   -ms-transform: scale(1, 1.17);
   position: absolute;
-  left: 1131.679px;
-  top: 666.539px;
+  left: 43.5em;
+  top: 23em;
   width: 344.992px;
   height: 99.207px;
   z-index: 31;
@@ -159,8 +159,8 @@ h4 {
   overflow: hidden;
   border: 1px solid #3498db;
   background-color: #d4e5fc;
-  top: 422px;
-  left: 428px;
+  top: 25.5em;
+  margin-left: 30.58em;
   width: 674px;
   position:absolute;
 
@@ -202,8 +202,8 @@ h4 {
     width: 650px;
     height: 304.75px;
     position:absolute;
-    top:464px;
-    left:428px;
+    top:28.5em;
+    margin-left:30.58em;
     z-index: 650;
 }
 
