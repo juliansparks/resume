@@ -220,16 +220,14 @@ main {
 }
 main {
   overflow: hidden;
-  position: relative;
+  position: absolute;
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section {
-  background: #5aa8e8;
-}
+
 section article.skills {
   width: 500px;
   height: auto;
