@@ -105,7 +105,7 @@ h4 {
   position: absolute;
 
   margin-left: 49.3em;
-  top: 21em;
+  top: 20.5em;
   z-index: 24;
 }
 
@@ -121,7 +121,7 @@ h4 {
   position: absolute;
 
   margin-left: 49.3em;
-  top: 18em;
+  top: 17.5em;
   z-index: 24;
 }
 
@@ -216,7 +216,7 @@ main {
   position: absolute;
   display: flex;
   margin-left: 3.7em;
-  top: 30em;
+  top: 29em;
 }
 
 section article.skills {
@@ -226,7 +226,7 @@ section article.skills {
 section article.skills p {
   z-index: 2;
   color: rgb(80, 132, 201);
-  padding: 5px;
+  padding: 4px;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
