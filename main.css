@@ -300,7 +300,15 @@ section article.skills div:nth-child(8) span:nth-child(2) {
   }
 }
 
-p {
-  font-size: 16px;
+h5 {
+  font-size: 18px;
 
+}
+
+h6 {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 16px;
 }
