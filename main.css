@@ -199,7 +199,6 @@ h4 {
     background-color: #d4e5fc;
     color:#222225;
     font-family: "Poiret One";
-    font-size: 16px;
     width: 650px;
     height: 304.75px;
     position:absolute;
@@ -299,4 +298,9 @@ section article.skills div:nth-child(8) span:nth-child(2) {
     left: 0;
     opacity: 1;
   }
+}
+
+.p {
+  font-size: 16px;
+  
 }
