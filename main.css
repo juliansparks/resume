@@ -225,7 +225,7 @@ section article.skills {
 
 section article.skills p {
   z-index: 2;
-  color: #3498db;
+  color: rgb(80, 132, 201);
   padding: 4px;
   position: relative;
   box-sizing: border-box;
@@ -239,7 +239,7 @@ section article.skills div span:nth-child(1) {
   left: 0;
   right: 0;
   margin: auto;
-  background: ##d4e5fc;
+  background: #ececece6;
   height: 100%;
   width: 100%;
 }
@@ -250,7 +250,7 @@ section article.skills div span:nth-child(2) {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #1c1c1c;
+  background: #d4e5fc;
   height: 100%;
 }
 section article.skills div:nth-child(1) span:nth-child(2) {
