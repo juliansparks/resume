@@ -302,12 +302,12 @@ section article.skills div:nth-child(8) span:nth-child(2) {
 
 h5 {
   font-size: 18px;
-
+  line-height: 0px;
 }
 
 h6 {
   font-size: 16px;
-  line-height: 0px;
+
 }
 
 ul {
