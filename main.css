@@ -185,6 +185,11 @@ h4 {
   font-size: 16px;
 }
 
+@font-face {
+  font-family: 'Poiret One';
+  src: url("PoiretOne-Regular.ttf");
+}
+
 .tab button:hover {
     background-color: #444444;
 }
