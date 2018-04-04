@@ -358,6 +358,25 @@ ul {
     z-index: 850;
 }
 
+.phonedot {
+    position: absolute;
+    margin-left: 80.8em;
+    top: 30.3em;
+    width: 27.6px;
+    height: 27.6px;
+    z-index: 800;
+}
+
+.emaildot {
+  position: absolute;
+  margin-left: 80.8em;
+  top: 35.5em;
+  width: 27.6px;
+  height: 27.6px;
+  z-index: 800;
+}
+
+
 @media (max-width: 700px) {
   .profilepic {
     z-index: 850;
@@ -475,4 +494,96 @@ ul {
       width: 100%;
   }
 
+  h2 {
+
+    font-size: 30px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 0.75em;
+    top: 15.5em;
+    z-index: 900;
+
+  }
+
+  main {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 1.7em;
+    top: 38em;
+  }
+
+  section article.skills {
+    width: 20em;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 12em;
+    top: 15.3em;
+    z-index: 800;
+  }
+
+  .email {
+    font-size: 24px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+
+    margin-left: 16em;
+    top: 25.5em;
+    z-index: 24;
+  }
+
+  .phone {
+    font-size: 24px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 16em;
+    top: 22.5em;
+    z-index: 24;
+  }
+
+  .phonedot {
+    position: absolute;
+    margin-left: 24.8em;
+    top: 38.8em;
+    width: 27.6px;
+    height: 27.6px;
+    z-index: 800;
+  }
+
+  .emaildot {
+    position: absolute;
+    margin-left: 24.8em;
+    top: 44.3em;
+    width: 27.6px;
+    height: 27.6px;
+    z-index: 800;
+  }
 }
