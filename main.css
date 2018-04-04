@@ -345,6 +345,21 @@ ul {
 
   }
 
+  .name {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    color:  #3498db;
+    font-weight: 300;
+    text-align: center;
+    word-wrap: initial;
+    -webkit-text-size-adjust: none;
+    position: absolute;
+    margin-left: 12em;
+    margin-top: 2em;
+    z-index: 850;
+
+  }
+
 }
 
 
