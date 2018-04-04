@@ -32,7 +32,6 @@ body{
   right: 0px;
   height: 22.8em;
   z-index: 800;
-  min-height: 55%;
   background-size: contain;
   max-width: 100%;
   min-width: 100%;
@@ -338,7 +337,7 @@ ul {
     left: 0px;
     top: 0px;
     right: 0px;
-    height: 12em;
+    height: 10em;
     z-index: 800;
     background-size: contain;
     max-width: 100%;
@@ -346,7 +345,7 @@ ul {
 
   }
 
-
+}
 
 
 
