@@ -322,6 +322,42 @@ ul {
   font-size: 16px;
 }
 
+.dot1 {
+  position: absolute;
+  margin-left: 54em;
+  top: 15em;
+  width: 50px;
+  height: 50px;
+  z-index: 850;"
+}
+
+.dot2 {
+  position: absolute;
+  margin-left: 63em;
+  top: 15em;
+  width: 50px;
+  height: 50px;
+  z-index: 850;
+}
+
+.dot3 {
+  position: absolute;
+  margin-left: 72em;
+  top: 15em;
+  width: 50px;
+  height: 50px;
+  z-index: 850;
+}
+
+.dot4 {
+  position: absolute;
+    margin-left: 81em;
+    top: 15em;
+    width: 50px;
+    height: 50px;
+    z-index: 850;
+}
+
 @media (max-width: 700px) {
   .profilepic {
     z-index: 850;
@@ -360,20 +396,40 @@ ul {
 
   }
 
-}
-
-
-
-    .Layer_1 {
-  background-image: url("Layer 1.png");
-  position: absolute;
-  left: 1px;
-  top: 0px;
-  width: 700px;
-  height: 216px;
-  z-index: 2;
-}
-
-
+  .dot1 {
+    position: absolute;
+    margin-left: 19em;
+    top: 6em;
+    width: 25px;
+    height: 25px;
+    z-index: 850;"
   }
+
+  .dot2 {
+    position: absolute;
+    margin-left: 23em;
+    top: 6em;
+    width: 25px;
+    height: 25px;
+    z-index: 850;
+  }
+
+  .dot3 {
+    position: absolute;
+    margin-left: 27em;
+    top: 6em;
+    width: 25px;
+    height: 25px;
+    z-index: 850;
+  }
+
+  .dot4 {
+    position: absolute;
+      margin-left: 31em;
+      top: 6em;
+      width: 25px;
+      height: 25px;
+      z-index: 850;
+  }
+
 }
