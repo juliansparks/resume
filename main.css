@@ -492,6 +492,7 @@ ul {
       top:12.5em;
       z-index: 650;
       margin-left: 0em;
+      width: 100%;
       box-sizing: border-box;
   }
 
