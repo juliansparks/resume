@@ -324,17 +324,32 @@ ul {
 }
 
 @media (max-width: 700px) {
+  .profilepic {
+    z-index: 850;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 17.78em;
+    overflow: hidden;
+  }
+
   .Rectangle {
     position: absolute;
     left: 0px;
     top: 0px;
     right: 0px;
-    height: 22.7em;
+    height: 13.74em;
     z-index: 800;
     min-height: 55%;
     background-size: contain;
     max-width: 100%;
     min-width: 100%;
+
+  }
+
+
+
+
 
     .Layer_1 {
   background-image: url("Layer 1.png");
