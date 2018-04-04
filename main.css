@@ -535,7 +535,7 @@ ul {
     -webkit-transform: scale(1, 1.17);
     -ms-transform: scale(1, 1.17);
     position: absolute;
-    margin-left: 12em;
+    margin-left: 11.5em;
     top: 15.3em;
     z-index: 800;
   }
@@ -598,6 +598,35 @@ ul {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+  }
+
+  .line {
+    background-color: rgb(34, 34, 37);
+    position: absolute;
+    margin-left: 24.8em;
+    top: 48em;
+    width: 330px;
+    height: 1px;
+    z-index: 29;
+  }
+
+  .quote {
+    font-size: 24px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.286;
+    text-align: center;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    left: 15em;
+    top: 30em;
+    width: 305px;
+    height: 99.207px;
+    z-index: 31;
+
 
   }
 }
