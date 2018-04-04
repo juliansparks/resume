@@ -491,7 +491,7 @@ ul {
       top:12.5em;
       z-index: 650;
       margin-left: 0em;
-      width: 100%;
+      width: auto;
   }
 
   h2 {
@@ -585,5 +585,17 @@ ul {
     width: 27.6px;
     height: 27.6px;
     z-index: 800;
+  }
+
+  body{
+    padding-bottom: 5em;
+    font-size: 14px;
+    font-family: "Poiret One";
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
   }
 }
