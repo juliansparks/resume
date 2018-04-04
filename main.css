@@ -10,8 +10,8 @@
   position:absolute;
   top:0px;
   left:0px;
-  height: 22.7em;
   width: 27.78em;
+  overflow: hidden;
 }
 
 body{
@@ -321,4 +321,31 @@ h6 {
 
 ul {
   font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .Rectangle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 22.7em;
+    z-index: 800;
+    min-height: 55%;
+    background-size: contain;
+    max-width: 100%;
+    min-width: 100%;
+
+    .Layer_1 {
+  background-image: url("Layer 1.png");
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  width: 700px;
+  height: 216px;
+  z-index: 2;
+}
+
+
+  }
 }
