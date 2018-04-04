@@ -432,4 +432,44 @@ ul {
       z-index: 850;
   }
 
+  .tab {
+    overflow: hidden;
+    border: 1px solid #3498db;
+    background-color: #d4e5fc;
+    top: 10em;
+    margin-left: 0em;
+    position:absolute;
+
+  }
+
+  .tab button {
+      background-color: #d4e5fc;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0px 20px;
+      transition: 0.3s;
+      color:#3498db;
+      font-family: "Poiret One";
+      font-size: 29px;
+
+  }
+
+  .tabcontent {
+      overflow-y: scroll;
+      resize:none;
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #3498db;
+      border-top: none;
+      background-color: #d4e5fc;
+      color:#3498db;
+      font-family: "Poiret One";
+      height: 20em;
+      position:absolute;
+      top:12.5em;
+      z-index: 650;
+  }
+
 }
