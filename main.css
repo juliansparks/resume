@@ -10,7 +10,8 @@
   position:absolute;
   top:0px;
   left:0px;
-  width: 27.78em;
+  width: auto;
+  height: 10em;
   overflow: hidden;
 }
 
@@ -383,7 +384,8 @@ ul {
     position:absolute;
     top:0px;
     left:0px;
-    width: 25.55%;
+    width: auto;
+    height: 10em;
     overflow: hidden;
   }
 
