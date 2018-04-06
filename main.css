@@ -377,7 +377,7 @@ ul {
 }
 
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .profilepic {
     z-index: 850;
     position:absolute;
@@ -631,7 +631,7 @@ ul {
   }
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   .profilepic {
     z-index: 850;
     position:absolute;
@@ -891,7 +891,7 @@ ul {
 
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 425px) {
   .profilepic {
     z-index: 850;
     position:absolute;
