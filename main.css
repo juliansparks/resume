@@ -637,7 +637,8 @@ ul {
     position:absolute;
     top:0px;
     left:0px;
-    width: 45.5%;
+    width: auto;
+    height: 10em;
     overflow: hidden;
   }
 
@@ -897,8 +898,9 @@ ul {
     position:absolute;
     top:0px;
     left:0px;
-    width: 45.5%;
+    width: auto;
     overflow: hidden;
+    height: 10em;
   }
 
   .Rectangle {
