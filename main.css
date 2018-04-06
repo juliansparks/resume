@@ -1155,3 +1155,264 @@ ul {
     }
 
 }
+
+@media only screen and (max-width: 320px) {
+  .profilepic {
+    z-index: 850;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: auto;
+    height: 10em;
+    overflow: hidden;
+  }
+
+  .Rectangle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 10em;
+    z-index: 800;
+    background-size: contain;
+    max-width: 100%;
+    min-width: 100%;
+
+  }
+
+  .name {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color:  #3498db;
+    font-weight: 300;
+    text-align: center;
+    word-wrap: initial;
+    -webkit-text-size-adjust: none;
+    position: absolute;
+    margin-left: 12em;
+    margin-top: 2em;
+    z-index: 850;
+
+  }
+
+  .dot1 {
+    position: absolute;
+    margin-left: 15em;
+    top: 5em;
+    width: 20px;
+    height: 20px;
+    z-index: 850;"
+  }
+
+  .dot2 {
+    position: absolute;
+    margin-left: 17.5em;
+    top: 5em;
+    width: 20px;
+    height: 20px;
+    z-index: 850;
+  }
+
+  .dot3 {
+    position: absolute;
+    margin-left: 20em;
+    top: 5em;
+    width: 20px;
+    height: 20px;
+    z-index: 850;
+  }
+
+  .dot4 {
+    position: absolute;
+      margin-left: 22.5em;
+      top: 5em;
+      width: 20px;
+      height: 20px;
+      z-index: 850;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #3498db;
+    background-color: #d4e5fc;
+    top: 10em;
+    margin-left: 0em;
+    position:absolute;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
+  .tab button {
+      background-color: #d4e5fc;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0px 3px;
+      transition: 0.3s;
+      color:#3498db;
+      font-family: "Poiret One";
+      font-size: 19.5px;
+
+  }
+
+  .tabcontent {
+      overflow-y: scroll;
+      resize:none;
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #3498db;
+      border-top: none;
+      background-color: #d4e5fc;
+      color:#3498db;
+      font-family: "Poiret One";
+      height: 20em;
+      position:absolute;
+      top:11.8em;
+      z-index: 650;
+      margin-left: 0em;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  h2 {
+
+    font-size: 22px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 1.2em;
+    top: 20.5em;
+    z-index: 900;
+
+  }
+
+  main {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 1.8em;
+    top: 35em;
+  }
+
+  section article.skills {
+    width: 20em;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 1.1em;
+    top: 37em;
+    z-index: 800;
+  }
+
+  .email {
+    font-size: 20px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+
+    margin-left: 3em;
+    top: 45.7em;
+    z-index: 24;
+  }
+
+  .phone {
+    font-size: 20px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 3em;
+    top: 43.7em;
+    z-index: 24;
+  }
+
+  .phonedot {
+    position: absolute;
+    margin-left: 2em;
+    top: 63em;
+    width: 20px;
+    height: 20px;
+    z-index: 800;
+  }
+
+  .emaildot {
+    position: absolute;
+    margin-left: 2em;
+    top: 66em;
+    width: 20px;
+    height: 20px;
+    z-index: 800;
+  }
+
+  body{
+    padding-bottom: 5em;
+    font-size: 14px;
+    font-family: "Poiret One";
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+  }
+
+  .line {
+    background-color: rgb(34, 34, 37);
+    position: absolute;
+    margin-left: 1.5em;
+    top: 70em;
+    width: 280px;
+    height: 1px;
+    z-index: 29;
+  }
+
+  .quote {
+    font-size: 20px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.286;
+    text-align: center;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    left: 0.3em;
+    top: 50em;
+    width: 305px;
+    height: 99.207px;
+    z-index: 31;
+  }
+
+    h4 {
+      font-size: 20px;
+      line-height: 1px;
+      font-family: "Poiret One";
+
+    }
+
+}
