@@ -378,6 +378,387 @@ ul {
   z-index: 800;
 }
 
+@media only screen and (max-width: 1440px) {
+  .topbar {
+      position: relative;
+      height:22.7em;
+
+
+  }
+
+  .profilepic {
+    z-index: 850;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: auto;
+    height: 22.8em;
+    overflow: hidden;
+  }
+
+  body{
+    padding-bottom: 775px;
+    font-size: 14px;
+    font-family: "Poiret One";
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  .Rectangle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 22.8em;
+    z-index: 800;
+    background-size: contain;
+    max-width: 100%;
+    min-width: 100%;
+
+  }
+
+  .name {
+    font-size: 59.2px;
+    font-family: 'Raleway', sans-serif;
+    color:  #3498db;
+    font-weight: 300;
+    text-align: center;
+    word-wrap: initial;
+    -webkit-text-size-adjust: none;
+    position: absolute;
+    margin-left: 12em;
+    margin-top: 2em;
+    display: inline;
+    z-index: 850;
+
+  }
+
+  h2 {
+
+    font-size: 36px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 8em;
+    top: 9.2em;
+    z-index: 900;
+
+  }
+
+  h3 {
+    font-size: 36px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    margin-left: 31em;
+    top: 9em;
+    z-index: 800;
+  }
+
+  h4 {
+    font-size: 28px;
+    line-height: 1px;
+    font-family: "Poiret One";
+
+  }
+
+  .email {
+    font-size: 24px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+
+    margin-left: 49.3em;
+    top: 20.5em;
+    z-index: 24;
+  }
+
+  .phone {
+    font-size: 24px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.5;
+    text-align: left;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+
+    margin-left: 49.3em;
+    top: 17.5em;
+    z-index: 24;
+  }
+
+  .line {
+    background-color: rgb(34, 34, 37);
+    position: absolute;
+    margin-left: 80em;
+    top: 41em;
+    width: 305px;
+    height: 1px;
+    z-index: 29;
+  }
+
+
+  .quote {
+    font-size: 26px;
+    font-family: "Poiret One";
+    color: rgb(80, 132, 201);
+    line-height: 1.286;
+    text-align: center;
+    -moz-transform: scale(1, 1.17);
+    -webkit-transform: scale(1, 1.17);
+    -ms-transform: scale(1, 1.17);
+    position: absolute;
+    left: 43em;
+    top: 23em;
+    width: 300px;
+    height: 99.207px;
+    z-index: 31;
+
+
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #3498db;
+    background-color: #d4e5fc;
+    top: 25.5em;
+    margin-left: 29em;
+    width: 674px;
+    position:absolute;
+
+  }
+
+
+  .tab button {
+      background-color: #d4e5fc;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0px 20px;
+      transition: 0.3s;
+      color:#3498db;
+      font-family: "Poiret One";
+      font-size: 36px;
+
+  }
+
+  #AboutMe {
+    font-size: 16px;
+  }
+
+  @font-face {
+    font-family: 'Poiret One';
+    src: url("PoiretOne-Regular.ttf");
+  }
+
+  .tab button:hover {
+      background-color: #444444;
+  }
+
+  .tab button.active {
+      background-color: #222225;
+  }
+
+  .tabcontent {
+      overflow-y: scroll;
+      resize:none;
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #3498db;
+      border-top: none;
+      background-color: #d4e5fc;
+      color:#3498db;
+      font-family: "Poiret One";
+      width: 650px;
+      height: 304.75px;
+      position:absolute;
+      top:28.5em;
+      margin-left:29em;
+      z-index: 650;
+  }
+
+  .skills {
+    animation-name: skills;
+  }
+
+  main {
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    margin-left: 2em;
+    top: 29em;
+  }
+
+  section article.skills {
+    width: 25em;
+  }
+
+  section article.skills p {
+    z-index: 2;
+    color: rgb(80, 132, 201);
+    padding: 4px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  section article.skills div span:nth-child(1) {
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #ececece6;
+    height: 100%;
+    width: 100%;
+  }
+  section article.skills div span:nth-child(2) {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #d4e5fc;
+    height: 100%;
+  }
+  section article.skills div:nth-child(1) span:nth-child(2) {
+    width: 75%;
+    animation-delay: 0;
+  }
+  section article.skills div:nth-child(2) span:nth-child(2) {
+    width: 75%;
+    animation-delay: 0.05s;
+  }
+  section article.skills div:nth-child(3) span:nth-child(2) {
+    width: 90%;
+    animation-delay: 0.1s;
+  }
+  section article.skills div:nth-child(4) span:nth-child(2) {
+    width: 70%;
+    animation-delay: 0.15s;
+  }
+  section article.skills div:nth-child(5) span:nth-child(2) {
+    width: 65%;
+    animation-delay: 0.2s;
+  }
+  section article.skills div:nth-child(6) span:nth-child(2) {
+    width: 60%;
+    animation-delay: 0.25s;
+  }
+  section article.skills div:nth-child(7) span:nth-child(2) {
+    width: 90%;
+    animation-delay: 0.3s;
+  }
+  section article.skills div:nth-child(8) span:nth-child(2) {
+    width: 90%;
+    animation-delay: 0.35s;
+  }
+
+  .skills {
+    animation: skills 1.25s cubic-bezier(0.17, 0.67, 0, 1);
+  }
+  @keyframes skills {
+    0% {
+      left: -500px;
+      opacity: 0;
+    }
+    100% {
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 0px;
+  }
+
+  h6 {
+    font-size: 16px;
+
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  .dot1 {
+    position: absolute;
+    margin-left: 54em;
+    top: 15em;
+    width: 50px;
+    height: 50px;
+    z-index: 850;"
+  }
+
+  .dot2 {
+    position: absolute;
+    margin-left: 63em;
+    top: 15em;
+    width: 50px;
+    height: 50px;
+    z-index: 850;
+  }
+
+  .dot3 {
+    position: absolute;
+    margin-left: 72em;
+    top: 15em;
+    width: 50px;
+    height: 50px;
+    z-index: 850;
+  }
+
+  .dot4 {
+    position: absolute;
+      margin-left: 81em;
+      top: 15em;
+      width: 50px;
+      height: 50px;
+      z-index: 850;
+  }
+
+  .phonedot {
+      position: absolute;
+      margin-left: 80em;
+      top: 30.3em;
+      width: 27.6px;
+      height: 27.6px;
+      z-index: 800;
+  }
+
+  .emaildot {
+    position: absolute;
+    margin-left: 80em;
+    top: 35.5em;
+    width: 27.6px;
+    height: 27.6px;
+    z-index: 800;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   .profilepic {
